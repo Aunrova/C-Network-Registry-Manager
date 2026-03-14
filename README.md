@@ -21,10 +21,12 @@ It demonstrates a "CRUD-lite" approach: **C**reating new records, **R**eading fr
 1. **Compilation:**
    ```bash
    gcc main.c -o network_registry
+   ```
 2. **Setup:** Ensure you have a .txt data file (e.g., data.txt) in the directory with the following header:
 REGID NAME SURNAME STATUS YEAR DEVICEMACADDRESS
-
-3. **Run**:
-./network_registry
+3. **Run:**
+   ```bash
+   ./network_registry
+   ```
 
 Developed by Ahmet Onur Taşgüzen as part of the METU Computer Engineering curriculum, focusing on System Programming foundations.
